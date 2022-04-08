@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A1F11C627D2F638005C7A6E /* Gelasio-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11BE27D2F638005C7A6E /* Gelasio-Italic.ttf */; };
+		4A1F11C727D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11BF27D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf */; };
+		4A1F11C827D2F638005C7A6E /* Gelasio-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C027D2F638005C7A6E /* Gelasio-BoldItalic.ttf */; };
+		4A1F11C927D2F638005C7A6E /* Gelasio-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C127D2F638005C7A6E /* Gelasio-Bold.ttf */; };
+		4A1F11CA27D2F638005C7A6E /* Gelasio-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C227D2F638005C7A6E /* Gelasio-SemiBold.ttf */; };
+		4A1F11CB27D2F638005C7A6E /* Gelasio-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C327D2F638005C7A6E /* Gelasio-MediumItalic.ttf */; };
+		4A1F11CC27D2F638005C7A6E /* Gelasio-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C427D2F638005C7A6E /* Gelasio-Medium.ttf */; };
+		4A1F11CD27D2F638005C7A6E /* Gelasio-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C527D2F638005C7A6E /* Gelasio-Regular.ttf */; };
+		4A1F11CF27D2F700005C7A6E /* NunitoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11CE27D2F700005C7A6E /* NunitoSans-Regular.ttf */; };
+		4A1F11D427D3000E005C7A6E /* Merriweather-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11D227D3000D005C7A6E /* Merriweather-Bold.ttf */; };
+		4A1F11D527D3000E005C7A6E /* Merriweather-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11D327D3000E005C7A6E /* Merriweather-Regular.ttf */; };
+		4A1F11D727D3D1DB005C7A6E /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11D627D3D1DB005C7A6E /* Home.storyboard */; };
+		4A1F11DF27D454D7005C7A6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11DE27D454D7005C7A6E /* Assets.xcassets */; };
+		4A3BA06927D29ED000E0FDD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BA06827D29ED000E0FDD9 /* AppDelegate.swift */; };
+		4A3BA06B27D29ED000E0FDD9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BA06A27D29ED000E0FDD9 /* SceneDelegate.swift */; };
+		4A3BA06D27D29ED000E0FDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3BA06C27D29ED000E0FDD9 /* ViewController.swift */; };
+		4A3BA07027D29ED000E0FDD9 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BA06E27D29ED000E0FDD9 /* Login.storyboard */; };
+		4A3BA07527D29ED100E0FDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3BA07327D29ED100E0FDD9 /* LaunchScreen.storyboard */; };
+		4AA07EF027D80EA7005CCC7F /* NunitoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE227D80EA6005CCC7F /* NunitoSans-Bold.ttf */; };
+		4AA07EF127D80EA7005CCC7F /* NunitoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE327D80EA6005CCC7F /* NunitoSans-Black.ttf */; };
+		4AA07EF227D80EA7005CCC7F /* NunitoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE427D80EA6005CCC7F /* NunitoSans-Light.ttf */; };
+		4AA07EF327D80EA7005CCC7F /* NunitoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE527D80EA6005CCC7F /* NunitoSans-ExtraBoldItalic.ttf */; };
+		4AA07EF427D80EA7005CCC7F /* NunitoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE627D80EA6005CCC7F /* NunitoSans-ExtraLight.ttf */; };
+		4AA07EF527D80EA7005CCC7F /* NunitoSans-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE727D80EA6005CCC7F /* NunitoSans-BlackItalic.ttf */; };
+		4AA07EF627D80EA7005CCC7F /* NunitoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EE827D80EA7005CCC7F /* NunitoSans-Italic.ttf */; };
+		4AA07EF827D80EA7005CCC7F /* NunitoSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EEA27D80EA7005CCC7F /* NunitoSans-SemiBoldItalic.ttf */; };
+		4AA07EF927D80EA7005CCC7F /* NunitoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EEB27D80EA7005CCC7F /* NunitoSans-LightItalic.ttf */; };
+		4AA07EFA27D80EA7005CCC7F /* NunitoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EEC27D80EA7005CCC7F /* NunitoSans-ExtraLightItalic.ttf */; };
+		4AA07EFB27D80EA7005CCC7F /* NunitoSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EED27D80EA7005CCC7F /* NunitoSans-BoldItalic.ttf */; };
+		4AA07EFC27D80EA7005CCC7F /* NunitoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EEE27D80EA7005CCC7F /* NunitoSans-SemiBold.ttf */; };
+		4AA07EFD27D80EA7005CCC7F /* NunitoSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4AA07EEF27D80EA7005CCC7F /* NunitoSans-ExtraBold.ttf */; };
+		4ACD564027D65AA1003084FB /* MenuHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD563F27D65AA1003084FB /* MenuHome.swift */; };
+		4ACD564227D69BDF003084FB /* Produtos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD564127D69BDF003084FB /* Produtos.swift */; };
+		4ACD564427D6DDAB003084FB /* MenuHomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD564327D6DDAB003084FB /* MenuHomeCollectionViewCell.swift */; };
+		4ACD564627D6E411003084FB /* ProdutosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD564527D6E411003084FB /* ProdutosCollectionViewCell.swift */; };
+		4ACD564827D6F8D0003084FB /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACD564727D6F8D0003084FB /* UIColor+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A1F11BE27D2F638005C7A6E /* Gelasio-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Italic.ttf"; sourceTree = "<group>"; };
+		4A1F11BF27D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4A1F11C027D2F638005C7A6E /* Gelasio-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4A1F11C127D2F638005C7A6E /* Gelasio-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Bold.ttf"; sourceTree = "<group>"; };
+		4A1F11C227D2F638005C7A6E /* Gelasio-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-SemiBold.ttf"; sourceTree = "<group>"; };
+		4A1F11C327D2F638005C7A6E /* Gelasio-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4A1F11C427D2F638005C7A6E /* Gelasio-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Medium.ttf"; sourceTree = "<group>"; };
+		4A1F11C527D2F638005C7A6E /* Gelasio-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Regular.ttf"; sourceTree = "<group>"; };
+		4A1F11CE27D2F700005C7A6E /* NunitoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Regular.ttf"; sourceTree = "<group>"; };
+		4A1F11D227D3000D005C7A6E /* Merriweather-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Bold.ttf"; sourceTree = "<group>"; };
+		4A1F11D327D3000E005C7A6E /* Merriweather-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Merriweather-Regular.ttf"; sourceTree = "<group>"; };
+		4A1F11D627D3D1DB005C7A6E /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		4A1F11DE27D454D7005C7A6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A3BA06527D29ED000E0FDD9 /* ProjetoZero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoZero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A3BA06827D29ED000E0FDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A3BA06A27D29ED000E0FDD9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4A3BA06C27D29ED000E0FDD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4A3BA06F27D29ED000E0FDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
+		4A3BA07427D29ED100E0FDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A3BA07627D29ED100E0FDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AA07EE227D80EA6005CCC7F /* NunitoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Bold.ttf"; sourceTree = "<group>"; };
+		4AA07EE327D80EA6005CCC7F /* NunitoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Black.ttf"; sourceTree = "<group>"; };
+		4AA07EE427D80EA6005CCC7F /* NunitoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Light.ttf"; sourceTree = "<group>"; };
+		4AA07EE527D80EA6005CCC7F /* NunitoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		4AA07EE627D80EA6005CCC7F /* NunitoSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		4AA07EE727D80EA6005CCC7F /* NunitoSans-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4AA07EE827D80EA7005CCC7F /* NunitoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-Italic.ttf"; sourceTree = "<group>"; };
+		4AA07EEA27D80EA7005CCC7F /* NunitoSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		4AA07EEB27D80EA7005CCC7F /* NunitoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		4AA07EEC27D80EA7005CCC7F /* NunitoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		4AA07EED27D80EA7005CCC7F /* NunitoSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4AA07EEE27D80EA7005CCC7F /* NunitoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		4AA07EEF27D80EA7005CCC7F /* NunitoSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NunitoSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		4ACD563F27D65AA1003084FB /* MenuHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHome.swift; sourceTree = "<group>"; };
+		4ACD564127D69BDF003084FB /* Produtos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Produtos.swift; sourceTree = "<group>"; };
+		4ACD564327D6DDAB003084FB /* MenuHomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuHomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		4ACD564527D6E411003084FB /* ProdutosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosCollectionViewCell.swift; sourceTree = "<group>"; };
+		4ACD564727D6F8D0003084FB /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A3BA06227D29ED000E0FDD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A1F11BD27D2F603005C7A6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4AA07ED227D7F22C005CCC7F /* Font */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A3BA05C27D29ED000E0FDD9 = {
+			isa = PBXGroup;
+			children = (
+				4A3BA06727D29ED000E0FDD9 /* ProjetoZero */,
+				4A3BA06627D29ED000E0FDD9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A3BA06627D29ED000E0FDD9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BA06527D29ED000E0FDD9 /* ProjetoZero.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A3BA06727D29ED000E0FDD9 /* ProjetoZero */ = {
+			isa = PBXGroup;
+			children = (
+				4AA07ECB27D7F107005CCC7F /* Application */,
+				4A1F11BD27D2F603005C7A6E /* Resources */,
+				4AA07ED927D7F503005CCC7F /* Extensions */,
+				4AA07EDB27D7F5CB005CCC7F /* Dashboard */,
+				4A3BA07327D29ED100E0FDD9 /* LaunchScreen.storyboard */,
+				4A3BA06A27D29ED000E0FDD9 /* SceneDelegate.swift */,
+				4A3BA07627D29ED100E0FDD9 /* Info.plist */,
+				4A1F11DE27D454D7005C7A6E /* Assets.xcassets */,
+				4A3BA06827D29ED000E0FDD9 /* AppDelegate.swift */,
+			);
+			path = ProjetoZero;
+			sourceTree = "<group>";
+		};
+		4AA07ECB27D7F107005CCC7F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4AA07ED527D7F4AB005CCC7F /* Produtos */,
+				4AA07ED027D7F152005CCC7F /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		4AA07ED027D7F152005CCC7F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BA06E27D29ED000E0FDD9 /* Login.storyboard */,
+				4AA07ED427D7F25F005CCC7F /* Controller */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		4AA07ED227D7F22C005CCC7F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				4A1F11C127D2F638005C7A6E /* Gelasio-Bold.ttf */,
+				4A1F11C027D2F638005C7A6E /* Gelasio-BoldItalic.ttf */,
+				4AA07EEB27D80EA7005CCC7F /* NunitoSans-LightItalic.ttf */,
+				4A1F11CE27D2F700005C7A6E /* NunitoSans-Regular.ttf */,
+				4A1F11BE27D2F638005C7A6E /* Gelasio-Italic.ttf */,
+				4A1F11C427D2F638005C7A6E /* Gelasio-Medium.ttf */,
+				4A1F11C327D2F638005C7A6E /* Gelasio-MediumItalic.ttf */,
+				4A1F11D227D3000D005C7A6E /* Merriweather-Bold.ttf */,
+				4AA07EE327D80EA6005CCC7F /* NunitoSans-Black.ttf */,
+				4AA07EE727D80EA6005CCC7F /* NunitoSans-BlackItalic.ttf */,
+				4AA07EE227D80EA6005CCC7F /* NunitoSans-Bold.ttf */,
+				4AA07EED27D80EA7005CCC7F /* NunitoSans-BoldItalic.ttf */,
+				4AA07EEF27D80EA7005CCC7F /* NunitoSans-ExtraBold.ttf */,
+				4AA07EE527D80EA6005CCC7F /* NunitoSans-ExtraBoldItalic.ttf */,
+				4AA07EE627D80EA6005CCC7F /* NunitoSans-ExtraLight.ttf */,
+				4AA07EEC27D80EA7005CCC7F /* NunitoSans-ExtraLightItalic.ttf */,
+				4AA07EE827D80EA7005CCC7F /* NunitoSans-Italic.ttf */,
+				4AA07EE427D80EA6005CCC7F /* NunitoSans-Light.ttf */,
+				4AA07EEE27D80EA7005CCC7F /* NunitoSans-SemiBold.ttf */,
+				4AA07EEA27D80EA7005CCC7F /* NunitoSans-SemiBoldItalic.ttf */,
+				4A1F11D327D3000E005C7A6E /* Merriweather-Regular.ttf */,
+				4A1F11C527D2F638005C7A6E /* Gelasio-Regular.ttf */,
+				4A1F11C227D2F638005C7A6E /* Gelasio-SemiBold.ttf */,
+				4A1F11BF27D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		4AA07ED427D7F25F005CCC7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4AA07ED527D7F4AB005CCC7F /* Produtos */ = {
+			isa = PBXGroup;
+			children = (
+				4AA07ED727D7F4BD005CCC7F /* Controller */,
+				4AA07ED627D7F4B7005CCC7F /* Presenter */,
+				4A1F11D627D3D1DB005C7A6E /* Home.storyboard */,
+			);
+			path = Produtos;
+			sourceTree = "<group>";
+		};
+		4AA07ED627D7F4B7005CCC7F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				4ACD564127D69BDF003084FB /* Produtos.swift */,
+				4ACD564527D6E411003084FB /* ProdutosCollectionViewCell.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		4AA07ED727D7F4BD005CCC7F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4A3BA06C27D29ED000E0FDD9 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4AA07ED927D7F503005CCC7F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4ACD564727D6F8D0003084FB /* UIColor+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4AA07EDB27D7F5CB005CCC7F /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				4ACD564327D6DDAB003084FB /* MenuHomeCollectionViewCell.swift */,
+				4ACD563F27D65AA1003084FB /* MenuHome.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A3BA06427D29ED000E0FDD9 /* ProjetoZero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A3BA07927D29ED100E0FDD9 /* Build configuration list for PBXNativeTarget "ProjetoZero" */;
+			buildPhases = (
+				4A3BA06127D29ED000E0FDD9 /* Sources */,
+				4A3BA06227D29ED000E0FDD9 /* Frameworks */,
+				4A3BA06327D29ED000E0FDD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProjetoZero;
+			productName = ProjetoZero;
+			productReference = 4A3BA06527D29ED000E0FDD9 /* ProjetoZero.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A3BA05D27D29ED000E0FDD9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					4A3BA06427D29ED000E0FDD9 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A3BA06027D29ED000E0FDD9 /* Build configuration list for PBXProject "ProjetoZero" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A3BA05C27D29ED000E0FDD9;
+			productRefGroup = 4A3BA06627D29ED000E0FDD9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A3BA06427D29ED000E0FDD9 /* ProjetoZero */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A3BA06327D29ED000E0FDD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AA07EF627D80EA7005CCC7F /* NunitoSans-Italic.ttf in Resources */,
+				4A1F11CB27D2F638005C7A6E /* Gelasio-MediumItalic.ttf in Resources */,
+				4A1F11CA27D2F638005C7A6E /* Gelasio-SemiBold.ttf in Resources */,
+				4A1F11CC27D2F638005C7A6E /* Gelasio-Medium.ttf in Resources */,
+				4AA07EF927D80EA7005CCC7F /* NunitoSans-LightItalic.ttf in Resources */,
+				4A1F11C927D2F638005C7A6E /* Gelasio-Bold.ttf in Resources */,
+				4AA07EF827D80EA7005CCC7F /* NunitoSans-SemiBoldItalic.ttf in Resources */,
+				4AA07EFD27D80EA7005CCC7F /* NunitoSans-ExtraBold.ttf in Resources */,
+				4A1F11D527D3000E005C7A6E /* Merriweather-Regular.ttf in Resources */,
+				4A1F11D427D3000E005C7A6E /* Merriweather-Bold.ttf in Resources */,
+				4A1F11CD27D2F638005C7A6E /* Gelasio-Regular.ttf in Resources */,
+				4AA07EFA27D80EA7005CCC7F /* NunitoSans-ExtraLightItalic.ttf in Resources */,
+				4A3BA07527D29ED100E0FDD9 /* LaunchScreen.storyboard in Resources */,
+				4AA07EFC27D80EA7005CCC7F /* NunitoSans-SemiBold.ttf in Resources */,
+				4AA07EFB27D80EA7005CCC7F /* NunitoSans-BoldItalic.ttf in Resources */,
+				4A1F11C627D2F638005C7A6E /* Gelasio-Italic.ttf in Resources */,
+				4A1F11CF27D2F700005C7A6E /* NunitoSans-Regular.ttf in Resources */,
+				4A3BA07027D29ED000E0FDD9 /* Login.storyboard in Resources */,
+				4A1F11C827D2F638005C7A6E /* Gelasio-BoldItalic.ttf in Resources */,
+				4AA07EF327D80EA7005CCC7F /* NunitoSans-ExtraBoldItalic.ttf in Resources */,
+				4AA07EF527D80EA7005CCC7F /* NunitoSans-BlackItalic.ttf in Resources */,
+				4A1F11C727D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf in Resources */,
+				4A1F11DF27D454D7005C7A6E /* Assets.xcassets in Resources */,
+				4AA07EF127D80EA7005CCC7F /* NunitoSans-Black.ttf in Resources */,
+				4AA07EF427D80EA7005CCC7F /* NunitoSans-ExtraLight.ttf in Resources */,
+				4AA07EF227D80EA7005CCC7F /* NunitoSans-Light.ttf in Resources */,
+				4A1F11D727D3D1DB005C7A6E /* Home.storyboard in Resources */,
+				4AA07EF027D80EA7005CCC7F /* NunitoSans-Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A3BA06127D29ED000E0FDD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACD564427D6DDAB003084FB /* MenuHomeCollectionViewCell.swift in Sources */,
+				4ACD564227D69BDF003084FB /* Produtos.swift in Sources */,
+				4A3BA06D27D29ED000E0FDD9 /* ViewController.swift in Sources */,
+				4ACD564827D6F8D0003084FB /* UIColor+Extensions.swift in Sources */,
+				4ACD564627D6E411003084FB /* ProdutosCollectionViewCell.swift in Sources */,
+				4A3BA06927D29ED000E0FDD9 /* AppDelegate.swift in Sources */,
+				4A3BA06B27D29ED000E0FDD9 /* SceneDelegate.swift in Sources */,
+				4ACD564027D65AA1003084FB /* MenuHome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A3BA06E27D29ED000E0FDD9 /* Login.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3BA06F27D29ED000E0FDD9 /* Base */,
+			);
+			name = Login.storyboard;
+			sourceTree = "<group>";
+		};
+		4A3BA07327D29ED100E0FDD9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A3BA07427D29ED100E0FDD9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A3BA07727D29ED100E0FDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4A3BA07827D29ED100E0FDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A3BA07A27D29ED100E0FDD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SQNB66NQ;
+				INFOPLIST_FILE = ProjetoZero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliveirajaqueline.ProjetoZero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A3BA07B27D29ED100E0FDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 52SQNB66NQ;
+				INFOPLIST_FILE = ProjetoZero/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.oliveirajaqueline.ProjetoZero;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A3BA06027D29ED000E0FDD9 /* Build configuration list for PBXProject "ProjetoZero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3BA07727D29ED100E0FDD9 /* Debug */,
+				4A3BA07827D29ED100E0FDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A3BA07927D29ED100E0FDD9 /* Build configuration list for PBXNativeTarget "ProjetoZero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A3BA07A27D29ED100E0FDD9 /* Debug */,
+				4A3BA07B27D29ED100E0FDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A3BA05D27D29ED000E0FDD9 /* Project object */;
+}

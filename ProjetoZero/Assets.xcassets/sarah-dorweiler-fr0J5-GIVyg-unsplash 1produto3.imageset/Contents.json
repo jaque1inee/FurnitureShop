@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "sarah-dorweiler-fr0J5-GIVyg-unsplash 1produto3.svg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "sarah-dorweiler-fr0J5-GIVyg-unsplash 1produto3-1.svg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "sarah-dorweiler-fr0J5-GIVyg-unsplash 1produto3-2.svg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

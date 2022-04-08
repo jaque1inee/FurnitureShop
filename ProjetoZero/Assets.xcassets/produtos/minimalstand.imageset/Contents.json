@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "2681826 1Minimal Stand-2.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "2681826 1Minimal Stand-3.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "2681826 1Minimal Stand-4.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
