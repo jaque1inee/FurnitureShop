@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4144BBB02801258800B5C4ED /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBAF2801258800B5C4ED /* UserViewController.swift */; };
+		4144BBB228021F2D00B5C4ED /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBB128021F2D00B5C4ED /* FavoritesViewController.swift */; };
+		4144BBB42802225600B5C4ED /* FavoritesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBB32802225600B5C4ED /* FavoritesTableViewCell.swift */; };
+		4144BBC928022D8A00B5C4ED /* CartTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBC828022D8A00B5C4ED /* CartTableViewCell.swift */; };
+		4144BBCB28022E7000B5C4ED /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBCA28022E7000B5C4ED /* CartViewController.swift */; };
+		4144BBCD280248B800B5C4ED /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBCC280248B800B5C4ED /* SettingViewController.swift */; };
+		4144BBD42802568800B5C4ED /* arquivo.json in Resources */ = {isa = PBXBuildFile; fileRef = 4144BBD32802568800B5C4ED /* arquivo.json */; };
+		4144BBD82802597100B5C4ED /* PresenterProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4144BBD72802597100B5C4ED /* PresenterProdutos.swift */; };
+		4145370E2802F38600C85B76 /* ModelProdutos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4145370D2802F38600C85B76 /* ModelProdutos.swift */; };
+		418905AB2800879600AD9B8F /* ProdutosDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418905AA2800879600AD9B8F /* ProdutosDetailsViewController.swift */; };
 		4A1F11C627D2F638005C7A6E /* Gelasio-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11BE27D2F638005C7A6E /* Gelasio-Italic.ttf */; };
 		4A1F11C727D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11BF27D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf */; };
 		4A1F11C827D2F638005C7A6E /* Gelasio-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A1F11C027D2F638005C7A6E /* Gelasio-BoldItalic.ttf */; };
@@ -46,6 +56,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4144BBAF2801258800B5C4ED /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		4144BBB128021F2D00B5C4ED /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		4144BBB32802225600B5C4ED /* FavoritesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesTableViewCell.swift; sourceTree = "<group>"; };
+		4144BBC828022D8A00B5C4ED /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartTableViewCell.swift; sourceTree = "<group>"; };
+		4144BBCA28022E7000B5C4ED /* CartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		4144BBCC280248B800B5C4ED /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		4144BBD32802568800B5C4ED /* arquivo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = arquivo.json; sourceTree = "<group>"; };
+		4144BBD72802597100B5C4ED /* PresenterProdutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresenterProdutos.swift; sourceTree = "<group>"; };
+		4145370D2802F38600C85B76 /* ModelProdutos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelProdutos.swift; sourceTree = "<group>"; };
+		418905AA2800879600AD9B8F /* ProdutosDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProdutosDetailsViewController.swift; sourceTree = "<group>"; };
 		4A1F11BE27D2F638005C7A6E /* Gelasio-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-Italic.ttf"; sourceTree = "<group>"; };
 		4A1F11BF27D2F638005C7A6E /* Gelasio-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
 		4A1F11C027D2F638005C7A6E /* Gelasio-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gelasio-BoldItalic.ttf"; sourceTree = "<group>"; };
@@ -97,9 +117,149 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4144BBB5280229A200B5C4ED /* MyCart */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBC528022B9100B5C4ED /* View */,
+			);
+			path = MyCart;
+			sourceTree = "<group>";
+		};
+		4144BBB6280229AE00B5C4ED /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBC128022ABB00B5C4ED /* View */,
+			);
+			path = Favorites;
+			sourceTree = "<group>";
+		};
+		4144BBB7280229D000B5C4ED /* User */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBAF2801258800B5C4ED /* UserViewController.swift */,
+				4144BBBC28022A2C00B5C4ED /* Setting */,
+				4144BBBB28022A2300B5C4ED /* MyReviews */,
+				4144BBBA28022A1900B5C4ED /* MyOrders */,
+				4144BBB9280229FA00B5C4ED /* PaymentsMethod */,
+				4144BBB8280229D900B5C4ED /* MyShipping */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		4144BBB8280229D900B5C4ED /* MyShipping */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBC228022AEE00B5C4ED /* View */,
+			);
+			path = MyShipping;
+			sourceTree = "<group>";
+		};
+		4144BBB9280229FA00B5C4ED /* PaymentsMethod */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBC028022AAE00B5C4ED /* View */,
+			);
+			path = PaymentsMethod;
+			sourceTree = "<group>";
+		};
+		4144BBBA28022A1900B5C4ED /* MyOrders */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBBF28022AA600B5C4ED /* View */,
+			);
+			path = MyOrders;
+			sourceTree = "<group>";
+		};
+		4144BBBB28022A2300B5C4ED /* MyReviews */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBBE28022A9900B5C4ED /* View */,
+			);
+			path = MyReviews;
+			sourceTree = "<group>";
+		};
+		4144BBBC28022A2C00B5C4ED /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBCC280248B800B5C4ED /* SettingViewController.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		4144BBBE28022A9900B5C4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4144BBBF28022AA600B5C4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4144BBC028022AAE00B5C4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4144BBC128022ABB00B5C4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBB32802225600B5C4ED /* FavoritesTableViewCell.swift */,
+				4144BBB128021F2D00B5C4ED /* FavoritesViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4144BBC228022AEE00B5C4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4144BBC528022B9100B5C4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBC828022D8A00B5C4ED /* CartTableViewCell.swift */,
+				4144BBCA28022E7000B5C4ED /* CartViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4144BBCE2802549E00B5C4ED /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBCF280254A500B5C4ED /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		4144BBCF280254A500B5C4ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4145370D2802F38600C85B76 /* ModelProdutos.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4144BBD22802567400B5C4ED /* Json */ = {
+			isa = PBXGroup;
+			children = (
+				4144BBD32802568800B5C4ED /* arquivo.json */,
+			);
+			path = Json;
+			sourceTree = "<group>";
+		};
 		4A1F11BD27D2F603005C7A6E /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4144BBD22802567400B5C4ED /* Json */,
 				4AA07ED227D7F22C005CCC7F /* Font */,
 			);
 			path = Resources;
@@ -124,6 +284,7 @@
 		4A3BA06727D29ED000E0FDD9 /* ProjetoZero */ = {
 			isa = PBXGroup;
 			children = (
+				4144BBCE2802549E00B5C4ED /* Domain */,
 				4AA07ECB27D7F107005CCC7F /* Application */,
 				4A1F11BD27D2F603005C7A6E /* Resources */,
 				4AA07ED927D7F503005CCC7F /* Extensions */,
@@ -140,6 +301,9 @@
 		4AA07ECB27D7F107005CCC7F /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				4144BBB7280229D000B5C4ED /* User */,
+				4144BBB6280229AE00B5C4ED /* Favorites */,
+				4144BBB5280229A200B5C4ED /* MyCart */,
 				4AA07ED527D7F4AB005CCC7F /* Produtos */,
 				4AA07ED027D7F152005CCC7F /* Authentication */,
 			);
@@ -208,6 +372,7 @@
 			children = (
 				4ACD564127D69BDF003084FB /* Produtos.swift */,
 				4ACD564527D6E411003084FB /* ProdutosCollectionViewCell.swift */,
+				4144BBD72802597100B5C4ED /* PresenterProdutos.swift */,
 			);
 			path = Presenter;
 			sourceTree = "<group>";
@@ -216,6 +381,8 @@
 			isa = PBXGroup;
 			children = (
 				4A3BA06C27D29ED000E0FDD9 /* ViewController.swift */,
+				418905AA2800879600AD9B8F /* ProdutosDetailsViewController.swift */,
+				4ACD564327D6DDAB003084FB /* MenuHomeCollectionViewCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -231,7 +398,6 @@
 		4AA07EDB27D7F5CB005CCC7F /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
-				4ACD564327D6DDAB003084FB /* MenuHomeCollectionViewCell.swift */,
 				4ACD563F27D65AA1003084FB /* MenuHome.swift */,
 			);
 			path = Dashboard;
@@ -303,6 +469,7 @@
 				4AA07EF827D80EA7005CCC7F /* NunitoSans-SemiBoldItalic.ttf in Resources */,
 				4AA07EFD27D80EA7005CCC7F /* NunitoSans-ExtraBold.ttf in Resources */,
 				4A1F11D527D3000E005C7A6E /* Merriweather-Regular.ttf in Resources */,
+				4144BBD42802568800B5C4ED /* arquivo.json in Resources */,
 				4A1F11D427D3000E005C7A6E /* Merriweather-Bold.ttf in Resources */,
 				4A1F11CD27D2F638005C7A6E /* Gelasio-Regular.ttf in Resources */,
 				4AA07EFA27D80EA7005CCC7F /* NunitoSans-ExtraLightItalic.ttf in Resources */,
@@ -332,13 +499,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4145370E2802F38600C85B76 /* ModelProdutos.swift in Sources */,
+				4144BBB228021F2D00B5C4ED /* FavoritesViewController.swift in Sources */,
+				4144BBB42802225600B5C4ED /* FavoritesTableViewCell.swift in Sources */,
+				4144BBCB28022E7000B5C4ED /* CartViewController.swift in Sources */,
 				4ACD564427D6DDAB003084FB /* MenuHomeCollectionViewCell.swift in Sources */,
+				4144BBB02801258800B5C4ED /* UserViewController.swift in Sources */,
+				4144BBCD280248B800B5C4ED /* SettingViewController.swift in Sources */,
 				4ACD564227D69BDF003084FB /* Produtos.swift in Sources */,
 				4A3BA06D27D29ED000E0FDD9 /* ViewController.swift in Sources */,
+				4144BBC928022D8A00B5C4ED /* CartTableViewCell.swift in Sources */,
 				4ACD564827D6F8D0003084FB /* UIColor+Extensions.swift in Sources */,
 				4ACD564627D6E411003084FB /* ProdutosCollectionViewCell.swift in Sources */,
 				4A3BA06927D29ED000E0FDD9 /* AppDelegate.swift in Sources */,
 				4A3BA06B27D29ED000E0FDD9 /* SceneDelegate.swift in Sources */,
+				418905AB2800879600AD9B8F /* ProdutosDetailsViewController.swift in Sources */,
+				4144BBD82802597100B5C4ED /* PresenterProdutos.swift in Sources */,
 				4ACD564027D65AA1003084FB /* MenuHome.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

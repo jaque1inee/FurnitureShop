@@ -1,0 +1,312 @@
+//
+//  arquivo.json
+//  ProjetoZero
+//
+//  Created by Jaqueline Oliveira on 09/04/22.
+//
+
+import Foundation
+
+[
+    {
+      "id": "560169a593e20698cc8ca821",
+      "product_price": "$312.93",
+      "product_likes": 665,
+      "product_title": "Ipsum Id",
+      "product_photo_on_list": "http://placehold.it/168x213/a34590/ffffff/&text=IPSUM",
+      "product_photo_on_detail": "http://placehold.it/320x370/5b5855/ffffff/&text=IPSUM",
+      "user_name": {
+        "first": "Rachel",
+        "last": "Bradshaw"
+      },
+      "user_fullname": "Rachel Bradshaw",
+      "user_iniciais": "RB",
+      "user_avatar": "http://placehold.it/32/4597CE/E06D93/&text=RB"
+    },
+    {
+      "id": "560169a66e215717c8c106f5",
+      "product_price": "$115.71",
+      "product_likes": 452,
+      "product_title": "Pariatur Ea",
+      "product_photo_on_list": "http://placehold.it/168x213/ffc517/ffffff/&text=PARIATUR",
+      "product_photo_on_detail": "http://placehold.it/320x370/e85657/ffffff/&text=PARIATUR",
+      "user_name": {
+        "first": "Schneider",
+        "last": "Moss"
+      },
+      "user_fullname": "Schneider Moss",
+      "user_iniciais": "SM",
+      "user_avatar": "http://placehold.it/32/4597CE/F3F4F5/&text=SM"
+    },
+    {
+      "id": "560169a630164bff4df78721",
+      "product_price": "$232.16",
+      "product_likes": 999,
+      "product_title": "Consectetur Eu",
+      "product_photo_on_list": "http://placehold.it/168x213/6fcf67/ffffff/&text=CONSECTETUR",
+      "product_photo_on_detail": "http://placehold.it/320x370/a34590/ffffff/&text=CONSECTETUR",
+      "user_name": {
+        "first": "Holloway",
+        "last": "Conley"
+      },
+      "user_fullname": "Holloway Conley",
+      "user_iniciais": "HC",
+      "user_avatar": "http://placehold.it/32/687D91/F7E42D/&text=HC"
+    },
+    {
+      "id": "560169a6774b9c308cd12342",
+      "product_price": "$144.05",
+      "product_likes": 118,
+      "product_title": "Excepteur Aliqua",
+      "product_photo_on_list": "http://placehold.it/168x213/ffc517/ffffff/&text=EXCEPTEUR",
+      "product_photo_on_detail": "http://placehold.it/320x370/5b5855/ffffff/&text=EXCEPTEUR",
+      "user_name": {
+        "first": "Robertson",
+        "last": "Landry"
+      },
+      "user_fullname": "Robertson Landry",
+      "user_iniciais": "RL",
+      "user_avatar": "http://placehold.it/32/687D91/E06D93/&text=RL"
+    },
+    {
+      "id": "560169a636e185ca720447c8",
+      "product_price": "$393.69",
+      "product_likes": 278,
+      "product_title": "Ut Adipisicing",
+      "product_photo_on_list": "http://placehold.it/168x213/e85657/ffffff/&text=UT",
+      "product_photo_on_detail": "http://placehold.it/320x370/a34590/ffffff/&text=UT",
+      "user_name": {
+        "first": "Benson",
+        "last": "Flynn"
+      },
+      "user_fullname": "Benson Flynn",
+      "user_iniciais": "BF",
+      "user_avatar": "http://placehold.it/32/4597CE/7DCC93/&text=BF"
+    },
+    {
+      "id": "560169a6d37cc670f34ed699",
+      "product_price": "$237.68",
+      "product_likes": 929,
+      "product_title": "Mollit Et",
+      "product_photo_on_list": "http://placehold.it/168x213/6fcf67/ffffff/&text=MOLLIT",
+      "product_photo_on_detail": "http://placehold.it/320x370/006ebe/ffffff/&text=MOLLIT",
+      "user_name": {
+        "first": "Cote",
+        "last": "Roberts"
+      },
+      "user_fullname": "Cote Roberts",
+      "user_iniciais": "CR",
+      "user_avatar": "http://placehold.it/32/687D91/E06D93/&text=CR"
+    },
+    {
+      "id": "560169a66b3e5b96676b40ea",
+      "product_price": "$172.88",
+      "product_likes": 216,
+      "product_title": "Pariatur Eu",
+      "product_photo_on_list": "http://placehold.it/168x213/6fcf67/ffffff/&text=PARIATUR",
+      "product_photo_on_detail": "http://placehold.it/320x370/e85657/ffffff/&text=PARIATUR",
+      "user_name": {
+        "first": "Haney",
+        "last": "Lawrence"
+      },
+      "user_fullname": "Haney Lawrence",
+      "user_iniciais": "HL",
+      "user_avatar": "http://placehold.it/32/687D91/62B7E6/&text=HL"
+    },
+    {
+      "id": "560169a6e1bf77573d8cd003",
+      "product_price": "$194.38",
+      "product_likes": 312,
+      "product_title": "Officia Officia",
+      "product_photo_on_list": "http://placehold.it/168x213/ffc517/ffffff/&text=OFFICIA",
+      "product_photo_on_detail": "http://placehold.it/320x370/15a99f/ffffff/&text=OFFICIA",
+      "user_name": {
+        "first": "Janie",
+        "last": "Francis"
+      },
+      "user_fullname": "Janie Francis",
+      "user_iniciais": "JF",
+      "user_avatar": "http://placehold.it/32/4597CE/F7E42D/&text=JF"
+    },
+    {
+      "id": "560169a628dd43a9d2df688c",
+      "product_price": "$113.26",
+      "product_likes": 989,
+      "product_title": "Anim Cupidatat",
+      "product_photo_on_list": "http://placehold.it/168x213/a34590/ffffff/&text=ANIM",
+      "product_photo_on_detail": "http://placehold.it/320x370/5b5855/ffffff/&text=ANIM",
+      "user_name": {
+        "first": "Michelle",
+        "last": "Meyer"
+      },
+      "user_fullname": "Michelle Meyer",
+      "user_iniciais": "MM",
+      "user_avatar": "http://placehold.it/32/4597CE/7DCC93/&text=MM"
+    },
+    {
+      "id": "560169a6a0b06495463a2619",
+      "product_price": "$122.18",
+      "product_likes": 368,
+      "product_title": "Velit Nostrud",
+      "product_photo_on_list": "http://placehold.it/168x213/5b5855/ffffff/&text=VELIT",
+      "product_photo_on_detail": "http://placehold.it/320x370/15a99f/ffffff/&text=VELIT",
+      "user_name": {
+        "first": "Rita",
+        "last": "Cline"
+      },
+      "user_fullname": "Rita Cline",
+      "user_iniciais": "RC",
+      "user_avatar": "http://placehold.it/32/687D91/E06D93/&text=RC"
+    },
+    {
+      "id": "560169a629e2fe8a26147b71",
+      "product_price": "$153.01",
+      "product_likes": 998,
+      "product_title": "Laborum Deserunt",
+      "product_photo_on_list": "http://placehold.it/168x213/6fcf67/ffffff/&text=LABORUM",
+      "product_photo_on_detail": "http://placehold.it/320x370/6fcf67/ffffff/&text=LABORUM",
+      "user_name": {
+        "first": "Maynard",
+        "last": "Alford"
+      },
+      "user_fullname": "Maynard Alford",
+      "user_iniciais": "MA",
+      "user_avatar": "http://placehold.it/32/4597CE/F0934F/&text=MA"
+    },
+    {
+      "id": "560169a6cbd00880184a2341",
+      "product_price": "$117.21",
+      "product_likes": 914,
+      "product_title": "Est Elit",
+      "product_photo_on_list": "http://placehold.it/168x213/6fcf67/ffffff/&text=EST",
+      "product_photo_on_detail": "http://placehold.it/320x370/e85657/ffffff/&text=EST",
+      "user_name": {
+        "first": "Hubbard",
+        "last": "Hopper"
+      },
+      "user_fullname": "Hubbard Hopper",
+      "user_iniciais": "HH",
+      "user_avatar": "http://placehold.it/32/687D91/E06D93/&text=HH"
+    },
+    {
+      "id": "560169a65b5e3aee95d0355f",
+      "product_price": "$213.00",
+      "product_likes": 749,
+      "product_title": "Sint Anim",
+      "product_photo_on_list": "http://placehold.it/168x213/e85657/ffffff/&text=SINT",
+      "product_photo_on_detail": "http://placehold.it/320x370/a34590/ffffff/&text=SINT",
+      "user_name": {
+        "first": "Burris",
+        "last": "Knapp"
+      },
+      "user_fullname": "Burris Knapp",
+      "user_iniciais": "BK",
+      "user_avatar": "http://placehold.it/32/687D91/7DCC93/&text=BK"
+    },
+    {
+      "id": "560169a64be54eb0b0e3b7d2",
+      "product_price": "$110.94",
+      "product_likes": 533,
+      "product_title": "Est Irure",
+      "product_photo_on_list": "http://placehold.it/168x213/006ebe/ffffff/&text=EST",
+      "product_photo_on_detail": "http://placehold.it/320x370/e85657/ffffff/&text=EST",
+      "user_name": {
+        "first": "Bass",
+        "last": "Parrish"
+      },
+      "user_fullname": "Bass Parrish",
+      "user_iniciais": "BP",
+      "user_avatar": "http://placehold.it/32/687D91/62B7E6/&text=BP"
+    },
+    {
+      "id": "560169a6fd4e95eb6ad2747b",
+      "product_price": "$391.38",
+      "product_likes": 996,
+      "product_title": "Commodo Aliquip",
+      "product_photo_on_list": "http://placehold.it/168x213/15a99f/ffffff/&text=COMMODO",
+      "product_photo_on_detail": "http://placehold.it/320x370/15a99f/ffffff/&text=COMMODO",
+      "user_name": {
+        "first": "Mcintyre",
+        "last": "Vasquez"
+      },
+      "user_fullname": "Mcintyre Vasquez",
+      "user_iniciais": "MV",
+      "user_avatar": "http://placehold.it/32/4597CE/E6E9ED/&text=MV"
+    },
+    {
+      "id": "560169a6ff42a0bdc6231056",
+      "product_price": "$65.85",
+      "product_likes": 855,
+      "product_title": "Ad Esse",
+      "product_photo_on_list": "http://placehold.it/168x213/15a99f/ffffff/&text=AD",
+      "product_photo_on_detail": "http://placehold.it/320x370/e85657/ffffff/&text=AD",
+      "user_name": {
+        "first": "Robinson",
+        "last": "Goff"
+      },
+      "user_fullname": "Robinson Goff",
+      "user_iniciais": "RG",
+      "user_avatar": "http://placehold.it/32/687D91/F3F4F5/&text=RG"
+    },
+    {
+      "id": "560169a6e81706d1c2d31c58",
+      "product_price": "$330.40",
+      "product_likes": 662,
+      "product_title": "Anim Id",
+      "product_photo_on_list": "http://placehold.it/168x213/a34590/ffffff/&text=ANIM",
+      "product_photo_on_detail": "http://placehold.it/320x370/15a99f/ffffff/&text=ANIM",
+      "user_name": {
+        "first": "Kerri",
+        "last": "Scott"
+      },
+      "user_fullname": "Kerri Scott",
+      "user_iniciais": "KS",
+      "user_avatar": "http://placehold.it/32/4597CE/F0934F/&text=KS"
+    },
+    {
+      "id": "560169a69e7e4820605f8a35",
+      "product_price": "$320.28",
+      "product_likes": 901,
+      "product_title": "Veniam Adipisicing",
+      "product_photo_on_list": "http://placehold.it/168x213/a34590/ffffff/&text=VENIAM",
+      "product_photo_on_detail": "http://placehold.it/320x370/ffc517/ffffff/&text=VENIAM",
+      "user_name": {
+        "first": "Geneva",
+        "last": "Bullock"
+      },
+      "user_fullname": "Geneva Bullock",
+      "user_iniciais": "GB",
+      "user_avatar": "http://placehold.it/32/4597CE/F3F4F5/&text=GB"
+    },
+    {
+      "id": "560169a6f17d78dd683e92f5",
+      "product_price": "$215.83",
+      "product_likes": 781,
+      "product_title": "Enim Commodo",
+      "product_photo_on_list": "http://placehold.it/168x213/f77274/ffffff/&text=ENIM",
+      "product_photo_on_detail": "http://placehold.it/320x370/a34590/ffffff/&text=ENIM",
+      "user_name": {
+        "first": "Jennie",
+        "last": "Fry"
+      },
+      "user_fullname": "Jennie Fry",
+      "user_iniciais": "JF",
+      "user_avatar": "http://placehold.it/32/4597CE/62B7E6/&text=JF"
+    },
+    {
+      "id": "560169a6f9cde9170442a616",
+      "product_price": "$386.71",
+      "product_likes": 822,
+      "product_title": "Nostrud Labore",
+      "product_photo_on_list": "http://placehold.it/168x213/e85657/ffffff/&text=NOSTRUD",
+      "product_photo_on_detail": "http://placehold.it/320x370/f77274/ffffff/&text=NOSTRUD",
+      "user_name": {
+        "first": "Brittany",
+        "last": "Bentley"
+      },
+      "user_fullname": "Brittany Bentley",
+      "user_iniciais": "BB",
+      "user_avatar": "http://placehold.it/32/4597CE/E06D93/&text=BB"
+    }
+  ]
+  

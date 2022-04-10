@@ -61,14 +61,13 @@ extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource {
                     currentCell.viewMenu.backgroundColor = UIColor(hex: "#F5F5F5")
                 }
             }
-            
-            
             collectionView.deselectItem(at: indexPath, animated: true)
             guard let cell = collectionView.cellForItem(at: indexPath) as? MenuHomeCollectionViewCell else { return }
             cell.viewMenu.backgroundColor = .black
+            
+        } else {
+            performSegue(withIdentifier: "details", sender: self)
+
         }
     }
 }
-
-
-
